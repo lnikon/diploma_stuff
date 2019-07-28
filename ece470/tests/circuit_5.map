@@ -1,0 +1,13 @@
+.model simple2_with_fanout
+.inputs a b c d
+.outputs z
+.default_input_arrival 0.00 0.00
+.default_output_required 5.48 5.72
+.default_input_drive 1.98 1.82
+.default_output_load 0.10
+.gate and2 a=b b=c O=e
+.gate inv2x a=d O=f
+.gate nor2 a=a b=e O=i
+.gate nand2 a=e b=f O=j
+.gate or2 a=i b=j O=z
+.end

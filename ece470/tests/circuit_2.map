@@ -1,0 +1,24 @@
+.model circ
+.inputs x0 x1 x2 x3
+.outputs y0 y1 y2
+.default_input_arrival 0.00 0.00
+.default_output_required 5.48 5.72
+.default_input_drive 1.98 1.82
+.default_output_load 0.10
+.gate nor2 a=x0 b=x1 O=a
+.gate nand2 a=x1 b=x2 O=[158]
+.gate nor2 a=a b=[158] O=[108]
+.gate inv2x a=[108] O=y0
+.gate inv2x a=x2 O=[290]
+.gate nor2 a=x3 b=[290] O=[132]
+.gate inv2x a=x3 O=[291]
+.gate nor2 a=x2 b=[291] O=[133]
+.gate nor2 a=[132] b=[133] O=c
+.gate nand2 a=[158] b=c O=[161]
+.gate nand2 a=[161] b=[108] O=[189]
+.gate inv2x a=[161] O=[287]
+.gate nand2 a=y0 b=[287] O=[191]
+.gate nand2 a=[189] b=[191] O=y1
+.gate inv1x a=[287] O=[288]
+.gate inv2x a=[288] O=y2
+.end

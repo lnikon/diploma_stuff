@@ -1,0 +1,14 @@
+.model c17
+.inputs 1GAT(0) 2GAT(1) 3GAT(2) 6GAT(3) 7GAT(4)
+.outputs 22GAT(10) 23GAT(9)
+.default_input_arrival 0.00 0.00
+.default_output_required 0.00 0.00
+.default_input_drive 1.98 1.82
+.default_output_load 0.10
+.gate nand2 a=16GAT(8) b=19GAT(7) O=23GAT(9)
+.gate nand2 a=1GAT(0) b=3GAT(2) O=10GAT(6)
+.gate nand2 a=3GAT(2) b=6GAT(3) O=11GAT(5)
+.gate nand2 a=11GAT(5) b=2GAT(1) O=16GAT(8)
+.gate nand2 a=10GAT(6) b=16GAT(8) O=22GAT(10)
+.gate nand2 a=11GAT(5) b=7GAT(4) O=19GAT(7)
+.end

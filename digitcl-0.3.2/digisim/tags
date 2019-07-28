@@ -1,0 +1,217 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+$(EXEC)	Makefile	/^$(EXEC) : $(OBJS)$/;"	t
+.cpp.o	Makefile	/^.cpp.o:	$/;"	t
+A	complib.h	/^	Input	A, B;$/;"	m	class:Func_Block	typeref:typename:Input
+A	complib.h	/^	Input	A, B;$/;"	m	class:Func_Block2	typeref:typename:Input
+And2	complib.cpp	/^And2::And2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:And2
+And2	complib.h	/^class And2 : public Component$/;"	c
+And3	complib.cpp	/^And3::And3(Connector &ci1, Connector &ci2,$/;"	f	class:And3
+And3	complib.h	/^class And3 : public Component$/;"	c
+B	complib.h	/^	Input	A, B;$/;"	m	class:Func_Block	typeref:typename:Input
+B	complib.h	/^	Input	A, B;$/;"	m	class:Func_Block2	typeref:typename:Input
+Buffer	complib.cpp	/^Buffer::Buffer(Connector &ci1, Connector &co1,$/;"	f	class:Buffer
+Buffer	complib.h	/^class Buffer : public Component$/;"	c
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall -g$/;"	m
+CKT_TIME_INIT	sim.h	/^const	ckt_time CKT_TIME_INIT = -1;$/;"	v	typeref:typename:const ckt_time
+CKT_TIME_NULL	sim.h	/^const	ckt_time CKT_TIME_NULL = -2;$/;"	v	typeref:typename:const ckt_time
+COMPLIB_H_	complib.h	/^#  define COMPLIB_H_$/;"	d
+COMP_H_	comp.h	/^#  define COMP_H_$/;"	d
+CONNECT	complib.cpp	/^#define CONNECT(/;"	d	file:
+CONNECT_H_	connect.h	/^#  define CONNECT_H_$/;"	d
+Component	comp.cpp	/^Component::Component(ckt_time t, const char *nm) :$/;"	f	class:Component
+Component	comp.h	/^class Component$/;"	c
+Connector	connect.cpp	/^Connector::Connector(const char *nm)$/;"	f	class:Connector
+Connector	connect.h	/^class Connector$/;"	c
+EXEC	Makefile	/^EXEC=digisim$/;"	m
+FALSE	sim.h	/^	const   boolean FALSE = 0;$/;"	v	typeref:typename:const boolean
+Func_Block	complib.cpp	/^Func_Block::Func_Block(Connector &ci1, Connector &ci2,$/;"	f	class:Func_Block
+Func_Block	complib.h	/^class Func_Block : public Component$/;"	c
+Func_Block2	complib.cpp	/^Func_Block2::Func_Block2(Connector &ci1, Connector &ci2,$/;"	f	class:Func_Block2
+Func_Block2	complib.h	/^class Func_Block2: public Component$/;"	c
+I1	complib.h	/^	Input	I1, I2, I3;$/;"	m	class:And3	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:And2	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:Nand2	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:Nor2	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:Or2	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:Xnor2	typeref:typename:Input
+I1	complib.h	/^	Input	I1, I2;$/;"	m	class:Xor2	typeref:typename:Input
+I1	complib.h	/^	Input	I1;$/;"	m	class:Buffer	typeref:typename:Input
+I1	complib.h	/^	Input	I1;$/;"	m	class:Not	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2, I3;$/;"	m	class:And3	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:And2	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:Nand2	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:Nor2	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:Or2	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:Xnor2	typeref:typename:Input
+I2	complib.h	/^	Input	I1, I2;$/;"	m	class:Xor2	typeref:typename:Input
+I3	complib.h	/^	Input	I1, I2, I3;$/;"	m	class:And3	typeref:typename:Input
+I_List	comp.h	/^	std::list<Port *>	 I_List;	\/\/ List of input ports.$/;"	m	class:Component	typeref:typename:std::list<Port * >
+Input	port.cpp	/^Input::Input(Component &cmp, Connector &con, const char *n) :$/;"	f	class:Input
+Input	port.h	/^class Input : public Port$/;"	c
+Nand2	complib.cpp	/^Nand2::Nand2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:Nand2
+Nand2	complib.h	/^class Nand2 : public Component$/;"	c
+Nor2	complib.cpp	/^Nor2::Nor2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:Nor2
+Nor2	complib.h	/^class Nor2 : public Component$/;"	c
+Not	complib.cpp	/^Not::Not(Connector &ci1, Connector &co1,$/;"	f	class:Not
+Not	complib.h	/^class Not : public Component$/;"	c
+O1	complib.h	/^	Output	O1;$/;"	m	class:And2	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:And3	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Buffer	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Nand2	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Nor2	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Not	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Or2	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Xnor2	typeref:typename:Output
+O1	complib.h	/^	Output	O1;$/;"	m	class:Xor2	typeref:typename:Output
+OBJS	Makefile	/^OBJS=comp.o complib.o connect.o main.o parser.o port.o \\$/;"	m
+O_List	comp.h	/^	std::list<Port *>	 O_List;	\/\/ List of output ports.$/;"	m	class:Component	typeref:typename:std::list<Port * >
+Or2	complib.cpp	/^Or2::Or2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:Or2
+Or2	complib.h	/^class Or2 : public Component$/;"	c
+Output	port.cpp	/^Output::Output(Component &cmp, Connector &con, const char *n) :$/;"	f	class:Output
+Output	port.h	/^class Output : public Port$/;"	c
+PARSE_H_	parser.h	/^#  define PARSE_H_$/;"	d
+PORT_H_	port.h	/^#  define PORT_H_$/;"	d
+Parser	parser.cpp	/^Parser::Parser(int bufsize) :$/;"	f	class:Parser
+Parser	parser.h	/^class Parser$/;"	c
+Port	port.cpp	/^Port::Port(Connector &con, const char *nm) :$/;"	f	class:Port
+Port	port.h	/^class Port : public Connector$/;"	c
+Q	complib.h	/^	Output	Q, Qb;$/;"	m	class:RS_Latch	typeref:typename:Output
+Qb	complib.h	/^	Output	Q, Qb;$/;"	m	class:RS_Latch	typeref:typename:Output
+R	complib.h	/^	Input	R, S;$/;"	m	class:RS_Latch	typeref:typename:Input
+RS_Latch	complib.cpp	/^RS_Latch::RS_Latch(Connector &ci1, Connector &ci2,$/;"	f	class:RS_Latch
+RS_Latch	complib.h	/^class RS_Latch : public Component$/;"	c
+RTCOMP_H_	rtcomp.h	/^#  define RTCOMP_H_$/;"	d
+Runtime_Component	rtcomp.cpp	/^Runtime_Component::Runtime_Component() :$/;"	f	class:Runtime_Component
+Runtime_Component	rtcomp.h	/^class Runtime_Component : public Component$/;"	c
+S	complib.h	/^	Input	R, S;$/;"	m	class:RS_Latch	typeref:typename:Input
+SIGNALS_H_	signal.h	/^#  define SIGNALS_H_$/;"	d
+SIG_HIGH	signal.h	/^enum Sig_Val {SIG_LOW, SIG_HIGH, SIG_X, SIG_NULL};$/;"	e	enum:Sig_Val
+SIG_LOW	signal.h	/^enum Sig_Val {SIG_LOW, SIG_HIGH, SIG_X, SIG_NULL};$/;"	e	enum:Sig_Val
+SIG_NULL	signal.h	/^enum Sig_Val {SIG_LOW, SIG_HIGH, SIG_X, SIG_NULL};$/;"	e	enum:Sig_Val
+SIG_X	signal.h	/^enum Sig_Val {SIG_LOW, SIG_HIGH, SIG_X, SIG_NULL};$/;"	e	enum:Sig_Val
+SIM_H_	sim.h	/^#  define SIM_H_$/;"	d
+Sig_Val	signal.h	/^enum Sig_Val {SIG_LOW, SIG_HIGH, SIG_X, SIG_NULL};$/;"	g
+Signal	signal.cpp	/^Signal::Signal(ckt_time ct, Sig_Val sv) :$/;"	f	class:Signal
+Signal	signal.cpp	/^Signal::Signal(const Signal &sig)$/;"	f	class:Signal
+Signal	signal.h	/^class Signal$/;"	c
+TRUE	sim.h	/^	const	boolean TRUE = 1;$/;"	v	typeref:typename:const boolean
+WIRE_H_	wire.h	/^#  define WIRE_H_$/;"	d
+Wire	wire.cpp	/^Wire::Wire(Signal s[], int num, char *nm) :$/;"	f	class:Wire
+Wire	wire.cpp	/^Wire::Wire(const char *nm) :$/;"	f	class:Wire
+Wire	wire.h	/^class Wire : public Connector$/;"	c
+X	complib.h	/^	Output	X, Y, Z;$/;"	m	class:Func_Block2	typeref:typename:Output
+Xnor2	complib.cpp	/^Xnor2::Xnor2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:Xnor2
+Xnor2	complib.h	/^class Xnor2 : public Component$/;"	c
+Xor2	complib.cpp	/^Xor2::Xor2(Connector &ci1, Connector &ci2, Connector &co1,$/;"	f	class:Xor2
+Xor2	complib.h	/^class Xor2 : public Component$/;"	c
+Y	complib.h	/^	Output	X, Y, Z;$/;"	m	class:Func_Block2	typeref:typename:Output
+Y	complib.h	/^	Output	Y, Z;$/;"	m	class:Func_Block	typeref:typename:Output
+Z	complib.h	/^	Output	X, Y, Z;$/;"	m	class:Func_Block2	typeref:typename:Output
+Z	complib.h	/^	Output	Y, Z;$/;"	m	class:Func_Block	typeref:typename:Output
+add_signal	wire.cpp	/^Wire::add_signal(Signal sig)$/;"	f	class:Wire	typeref:typename:void
+and2a	complib.h	/^	And2	and2a, and2b, and2c;$/;"	m	class:Func_Block2	typeref:typename:And2
+and2a	complib.h	/^	And2	and2a, and2b;$/;"	m	class:And3	typeref:typename:And2
+and2a	complib.h	/^	And2	and2a, and2b;$/;"	m	class:Func_Block	typeref:typename:And2
+and2b	complib.h	/^	And2	and2a, and2b, and2c;$/;"	m	class:Func_Block2	typeref:typename:And2
+and2b	complib.h	/^	And2	and2a, and2b;$/;"	m	class:And3	typeref:typename:And2
+and2b	complib.h	/^	And2	and2a, and2b;$/;"	m	class:Func_Block	typeref:typename:And2
+and2c	complib.h	/^	And2	and2a, and2b, and2c;$/;"	m	class:Func_Block2	typeref:typename:And2
+boolean	sim.h	/^typedef int	boolean;$/;"	t	typeref:typename:int
+buffer	parser.h	/^	char		*buffer;$/;"	m	class:Parser	typeref:typename:char *
+cached	parser.h	/^	int		 cached;$/;"	m	class:Parser	typeref:typename:int
+ckt	parser.cpp	/^Parser::ckt(Runtime_Component &component)$/;"	f	class:Parser	typeref:typename:int
+ckt_time	sim.h	/^typedef long	ckt_time;$/;"	t	typeref:typename:long
+clean	Makefile	/^clean :$/;"	t
+comp.o	Makefile	/^comp.o:		comp.cpp sim.h port.h connect.h signal.h comp.h$/;"	t
+complib.o	Makefile	/^complib.o:	complib.cpp complib.h sim.h comp.h port.h connect.h \\$/;"	t
+connect	connect.cpp	/^void Connector::connect(Component &cmp)$/;"	f	class:Connector	typeref:typename:void
+connect.o	Makefile	/^connect.o:	connect.cpp sim.h comp.h connect.h signal.h$/;"	t
+create_input	rtcomp.cpp	/^Runtime_Component::create_input(Wire *wire, const char *name)$/;"	f	class:Runtime_Component	typeref:typename:void
+create_internal	rtcomp.cpp	/^Runtime_Component::create_internal(Wire *wire)$/;"	f	class:Runtime_Component	typeref:typename:void
+create_output	rtcomp.cpp	/^Runtime_Component::create_output(Wire *wire, const char *name)$/;"	f	class:Runtime_Component	typeref:typename:void
+create_subcmp	rtcomp.cpp	/^Runtime_Component::create_subcmp(const char *type,$/;"	f	class:Runtime_Component	typeref:typename:int
+delay	comp.h	/^	ckt_time	 delay;		\/\/ Transport delay of component.$/;"	m	class:Component	typeref:typename:ckt_time
+depend	Makefile	/^depend:$/;"	t
+display	comp.cpp	/^Component::display(ostream &os, int tabs) const$/;"	f	class:Component	typeref:typename:void
+display	connect.cpp	/^Connector::display(ostream &os, int tabs) const$/;"	f	class:Connector	typeref:typename:void
+display	port.cpp	/^Port::display(ostream &os, int tabs) const$/;"	f	class:Port	typeref:typename:void
+display	rtcomp.cpp	/^Runtime_Component::display(ostream &os, int tabs) const$/;"	f	class:Runtime_Component	typeref:typename:void
+display	wire.cpp	/^Wire::display(ostream &os, int tabs) const$/;"	f	class:Wire	typeref:typename:void
+display_ports	comp.cpp	/^Component::display_ports(ostream &os, list<Port *> ports, int tabs) const$/;"	f	class:Component	typeref:typename:void
+display_signals	wire.cpp	/^Wire::display_signals() const$/;"	f	class:Wire	typeref:typename:void
+error	parser.cpp	/^Parser::error(char *errstring) const$/;"	f	class:Parser	typeref:typename:void
+external	port.h	/^	Connector	*external;	\/\/ External connector (port or wire) to which the$/;"	m	class:Port	typeref:typename:Connector *
+fan_out	connect.h	/^	std::list<Component *> fan_out;	\/\/ Components in fan-out$/;"	m	class:Connector	typeref:typename:std::list<Component * >
+find_connector	rtcomp.cpp	/^Runtime_Component::find_connector(const char *name)$/;"	f	class:Runtime_Component	typeref:typename:Connector *
+generate_tabs	main.cpp	/^generate_tabs(int num)$/;"	f	typeref:typename:char *
+get_line	parser.cpp	/^Parser::get_line()$/;"	f	class:Parser	typeref:typename:int
+get_name	connect.cpp	/^Connector::get_name() const$/;"	f	class:Connector	typeref:typename:const char *
+get_signal	port.cpp	/^Port::get_signal(ckt_time t) const$/;"	f	class:Port	typeref:typename:Signal
+get_signal	wire.cpp	/^Wire::get_signal(ckt_time t) const$/;"	f	class:Wire	typeref:typename:Signal
+get_time	signal.cpp	/^Signal::get_time() const$/;"	f	class:Signal	typeref:typename:ckt_time
+get_value	signal.cpp	/^Signal::get_value() const$/;"	f	class:Signal	typeref:typename:Sig_Val
+get_word	parser.cpp	/^Parser::get_word(char *delim)$/;"	f	class:Parser	typeref:typename:char *
+inputs_are_ready	comp.cpp	/^Component::inputs_are_ready() const$/;"	f	class:Component	typeref:typename:boolean
+internal_netlist	rtcomp.h	/^	std::list<Wire *>	 internal_netlist;	\/\/ All the internal$/;"	m	class:Runtime_Component	typeref:typename:std::list<Wire * >
+line_num	parser.h	/^	int		 line_num;$/;"	m	class:Parser	typeref:typename:int
+line_size	parser.h	/^	const int	 line_size;$/;"	m	class:Parser	typeref:typename:const int
+local_time	comp.h	/^	ckt_time	 local_time;	\/\/ Local time of component.$/;"	m	class:Component	typeref:typename:ckt_time
+main	main.cpp	/^main()$/;"	f	typeref:typename:int
+main.o	Makefile	/^main.o:		main.cpp sim.h rtcomp.h comp.h parser.h signal.h wire.h \\$/;"	t
+name	comp.h	/^	char		*name;		\/\/ Name of the component.$/;"	m	class:Component	typeref:typename:char *
+name	connect.h	/^	char 		 *name;		\/\/ Name of connector.$/;"	m	class:Connector	typeref:typename:char *
+nand2	complib.h	/^	Nand2	nand2;$/;"	m	class:Func_Block	typeref:typename:Nand2
+nand2a	complib.h	/^	Nand2	nand2a, nand2b;$/;"	m	class:RS_Latch	typeref:typename:Nand2
+nand2b	complib.h	/^	Nand2	nand2a, nand2b;$/;"	m	class:RS_Latch	typeref:typename:Nand2
+operator <<	signal.cpp	/^operator <<(ostream &os, const Signal &s)$/;"	f	typeref:typename:ostream &
+operator =	signal.cpp	/^Signal::operator=(const Signal &sig)$/;"	f	class:Signal	typeref:typename:Signal &
+parser.o	Makefile	/^parser.o:	parser.cpp wire.h sim.h connect.h signal.h rtcomp.h comp.h \\$/;"	t
+port.o	Makefile	/^port.o:		port.cpp sim.h port.h connect.h signal.h comp.h$/;"	t
+process	comp.cpp	/^Component::process(ckt_time)$/;"	f	class:Component	typeref:typename:void
+process	complib.cpp	/^And2::process(ckt_time t)$/;"	f	class:And2	typeref:typename:void
+process	complib.cpp	/^Buffer::process(ckt_time t)$/;"	f	class:Buffer	typeref:typename:void
+process	complib.cpp	/^Nand2::process(ckt_time t)$/;"	f	class:Nand2	typeref:typename:void
+process	complib.cpp	/^Nor2::process(ckt_time t)$/;"	f	class:Nor2	typeref:typename:void
+process	complib.cpp	/^Not::process(ckt_time t)$/;"	f	class:Not	typeref:typename:void
+process	complib.cpp	/^Or2::process(ckt_time t)$/;"	f	class:Or2	typeref:typename:void
+process	complib.cpp	/^Xnor2::process(ckt_time t)$/;"	f	class:Xnor2	typeref:typename:void
+process	complib.cpp	/^Xor2::process(ckt_time t)$/;"	f	class:Xor2	typeref:typename:void
+propagate	connect.cpp	/^Connector::propagate() const$/;"	f	class:Connector	typeref:typename:void
+read_component	parser.cpp	/^Parser::read_component(Runtime_Component &cmp)$/;"	f	class:Parser	typeref:typename:boolean
+read_component_attribute	parser.cpp	/^Parser::read_component_attribute(boolean &check, char *&val)$/;"	f	class:Parser	typeref:typename:boolean
+read_netlist	parser.cpp	/^Parser::read_netlist(wire_type type, Runtime_Component &cmp)$/;"	f	class:Parser	typeref:typename:boolean
+read_one	parser.h	/^	int		 read_one;$/;"	m	class:Parser	typeref:typename:int
+read_signals	parser.cpp	/^boolean Parser::read_signals(Wire *wire)$/;"	f	class:Parser	typeref:typename:boolean
+replace	wire.cpp	/^Wire::replace(Signal sig)$/;"	f	class:Wire	typeref:typename:void
+rtcomp.o	Makefile	/^rtcomp.o:	rtcomp.cpp port.h sim.h connect.h signal.h rtcomp.h comp.h \\$/;"	t
+send_signal	port.cpp	/^Input::send_signal(Signal)$/;"	f	class:Input	typeref:typename:void
+send_signal	port.cpp	/^Port::send_signal(Signal s)$/;"	f	class:Port	typeref:typename:void
+send_signal	wire.cpp	/^Wire::send_signal(Signal sig)$/;"	f	class:Wire	typeref:typename:void
+set_value	signal.cpp	/^Signal::set_value(Sig_Val sv)$/;"	f	class:Signal	typeref:typename:void
+show_outputs	comp.cpp	/^Component::show_outputs() const$/;"	f	class:Component	typeref:typename:void
+show_signals	port.cpp	/^Port::show_signals() const$/;"	f	class:Port	typeref:typename:void
+show_signals	wire.cpp	/^Wire::show_signals() const$/;"	f	class:Wire	typeref:typename:void
+signal.o	Makefile	/^signal.o:	signal.cpp signal.h sim.h$/;"	t
+signals	wire.h	/^	std::list<Signal> signals;	\/\/ History of all the signals which $/;"	m	class:Wire	typeref:typename:std::list<Signal>
+simulate	comp.cpp	/^Component::simulate()$/;"	f	class:Component	typeref:typename:void
+t	signal.h	/^	ckt_time	t;		\/\/ Time that the signal occurred.$/;"	m	class:Signal	typeref:typename:ckt_time
+tmp_buf	parser.h	/^	char		*tmp_buf;$/;"	m	class:Parser	typeref:typename:char *
+unget_line	parser.cpp	/^Parser::unget_line()$/;"	f	class:Parser	typeref:typename:void
+value	signal.h	/^	Sig_Val		value;		\/\/ Value of the signal$/;"	m	class:Signal	typeref:typename:Sig_Val
+w	complib.h	/^	Wire	w;$/;"	m	class:And3	typeref:typename:Wire
+w	complib.h	/^	Wire	w;$/;"	m	class:Func_Block	typeref:typename:Wire
+wire.o	Makefile	/^wire.o:		wire.cpp sim.h wire.h connect.h signal.h$/;"	t
+wire_input	parser.h	/^	enum wire_type	{ wire_input, wire_output, wire_internal };$/;"	e	enum:Parser::wire_type
+wire_internal	parser.h	/^	enum wire_type	{ wire_input, wire_output, wire_internal };$/;"	e	enum:Parser::wire_type
+wire_output	parser.h	/^	enum wire_type	{ wire_input, wire_output, wire_internal };$/;"	e	enum:Parser::wire_type
+wire_type	parser.h	/^	enum wire_type	{ wire_input, wire_output, wire_internal };$/;"	g	class:Parser
+~Component	comp.cpp	/^Component::~Component()$/;"	f	class:Component
+~Connector	connect.cpp	/^Connector::~Connector()$/;"	f	class:Connector
+~Parser	parser.cpp	/^Parser::~Parser()$/;"	f	class:Parser
